@@ -1,7 +1,7 @@
 # DriverGuide
 
 
-![alt text](https://github.com/bdsasMaster/GM-DriverGuide/tree/master/Screenshots/home.PNG)
+![alt text](https://github.com/bdsasMaster/GM-DriverGuide/blob/master/Screenshots/home.PNG)
 
 
 **Team Members**: [Amal Ezzouhri](https://github.com/AmalEzzouhri), [Meryem Janati Idrissi](https://github.com/meryemjanati), [Oumayma El Ghomri](https://github.com/EL-Ghomri).
