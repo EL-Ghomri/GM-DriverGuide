@@ -10,9 +10,6 @@ Features :
 - Calendar : gives the possibility to visualize, add, delete events from driver's calendar.
 
 
-
-
-
 **Technologies Used**:
 
 - HTML5/CSS3
@@ -23,3 +20,19 @@ Features :
 - DarkSky API
 - Google Calendar API
 
+# prerequisites
+- NGI-SDK (https://developer.gm.com/ngi/downloads)
+- Node 8 & NPM 5
+
+# How to Run
+
+1. Pull Repo From github
+2. In directory, run command
+
+```
+npm install -g ./ngi-sdk.tar
+```
+
+3. run ngi serve
+
+Hope you like it
