@@ -1,0 +1,271 @@
+html, body {
+	height: 100%;
+
+}
+
+
+html {
+	font: normal 100%/1.25 'Alegreya Sans', sans-serif;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+
+	background: black;
+}
+
+
+input[type="text"] {
+	
+	-webkit-appearance: none;
+		 -moz-appearance: none;
+					appearance: none;
+	border: 0px;
+
+	width:20px;
+	
+}
+
+input[type="text"] {
+	box-sizing: border-box;
+	box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.75);
+
+	margin: 0 0 0.875rem;
+	padding: 0.875rem;
+	font-weight: 400;
+	
+}
+button#gpsMaskingIcon{
+background:transparent; border:none; color:transparent;
+}
+
+/* Normal white Button as seen on Google.com*/
+button {
+	margin-left: 30%;
+margin-right: 30%;
+    color: white;
+    background: #2395ce;
+    border: 1px #2395ce solid;
+    padding: 5px 10px;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 13pt;
+    outline: none;
+}
+
+button:hover {
+    border: 1px #1c7eaf solid;
+    box-shadow: 1px 1px 1px #EAEAEA;
+    color: white;
+    background: #1c7eaf;
+}
+
+button:active {
+    box-shadow: inset 1px 1px 1px #2395ce;   
+}
+
+
+
+
+.form {
+	padding: 1rem;
+	width: 40%;
+	color: white;
+	
+}
+
+
+.form ul {
+	overflow: auto;
+	
+}
+p{
+	font-size:16px;
+	font-weight:bold;
+	color:#474747;
+	text-align:center;
+	
+}
+
+div.screen
+{
+    display: block;
+   text-align: center;
+}
+
+
+div#date{
+	font-size:16px;
+	font-weight:bold;
+	text-align:left;
+	color:#474747;
+}
+div#temp{
+	margin-left:15%;
+	font-size:36px;
+	font-weight:bold;
+	color:yellow;
+}
+div.moreInfo{
+	font-size:16px;
+	font-weight:bold;
+	text-align:left;
+	margin-top:7%;
+	color:#474747;
+}
+
+form
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.form-field input {
+	width: 100%;
+}
+
+
+
+
+.hourly {
+	word-wrap: break-word;
+}
+.hourly b {
+	display: block;
+	padding: 0.5rem 0 0.5rem 0;
+	color: #474747;
+}
+.hourly ul {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+			flex-wrap: wrap;
+}
+
+.hourly ul li {
+	margin: 0.1875rem;
+}
+.hourly ul li:not(:last-of-type)::after {
+	content: ',';
+}
+
+#back {
+	-webkit-appearance: none;
+		 -moz-appearance: none;
+					appearance: none;
+	border-radius: 0;
+	-webkit-transition: 200ms all ease-in-out;
+	transition: 200ms all ease-in-out;
+	width: 100%;
+	padding: 1rem;
+	z-index: 1;
+	font-size: 0.875em;
+	font-weight: 700;
+	line-height: 1;
+	text-transform: uppercase;
+	background: #82B541;
+	color: white;
+}
+#back:hover {
+	cursor: pointer;
+	background: #6f9b38;
+}
+
+.graphic {
+	margin-left:auto;
+
+}
+
+
+.graphic canvas {
+	
+	
+	height: 50%;
+	width: 50%;
+}
+
+#forecast {
+	height: 100%;
+	margin: auto;
+	width: 95%;
+}
+#forecast > li {
+	
+	
+	border-radius: 2px;
+	margin: 1rem 0.5rem;
+	padding: 0.5rem;
+	background-image: url("../images/sky.jpg");
+	background-repeat: no-repeat;
+
+}
+
+.card {
+	padding: 0.5rem;
+	width: 100%;
+}
+
+.front.card > div {
+	box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.48), 0 1px 0 rgba(255, 255, 255, 0.1);
+	padding-bottom: 1rem;
+}
+
+input[type="checkbox"] {
+	position: absolute;
+	opacity: 0;
+	z-index: -1;
+}
+input[type="checkbox"]:checked + label {
+	padding-left: 10px;
+	color: white;
+}
+input[type="checkbox"]:checked + label::before {
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: #2395ce;
+}
+
+label[for="celsius"],
+label[for="celsius"]::before {
+	-webkit-transition: 200ms all ease-in-out;
+	transition: 200ms all ease-in-out;
+}
+
+label[for="celsius"] {
+	position: relative;
+	display: inline-block;
+	margin-bottom: 4px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 30px;
+	padding-right: 10px;
+	line-height: 1.5;
+	cursor: pointer;
+}
+label[for="celsius"]::before {
+	content: " ";
+	position: absolute;
+	top: 2px;
+	left: 0;
+	right: 0;
+	display: block;
+	width: 25px;
+	height: 25px;
+	border: 2px solid #2395ce;
+	border-radius: 2px;
+	z-index: -1;
+}
+
+.list-reset {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
