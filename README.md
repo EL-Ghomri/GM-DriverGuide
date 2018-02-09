@@ -20,11 +20,12 @@ Features :
 - DarkSky API
 - Google Calendar API
 
-# prerequisites
-- NGI-SDK (https://developer.gm.com/ngi/downloads)
+**Prerequisites**
+
+- NGI-SDK(https://developer.gm.com/ngi/downloads)
 - Node 8 & NPM 5
 
-# How to Run
+**How to Run**
 
 1. Pull Repo From github
 2. In directory, run command
