@@ -22,7 +22,7 @@ Features :
 
 **Prerequisites**
 
-- NGI-SDK(https://developer.gm.com/ngi/downloads)
+- [NGI-SDK](https://developer.gm.com/ngi/downloads)
 - Node 8 & NPM 5
 
 **How to Run**
