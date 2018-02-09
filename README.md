@@ -1,6 +1,6 @@
 # DriverGuide
 
-**Team Members**: [Amal Ezzouhri](https://github.com/AmalEzzouhri), [Meryem Janati Idrissi](https://github.com/meryemjanati), [Oumaima El Ghomri](https://github.com/EL-Ghomri).
+**Team Members**: [Amal Ezzouhri](https://github.com/AmalEzzouhri), [Meryem Janati Idrissi](https://github.com/meryemjanati), [Oumayma El Ghomri](https://github.com/EL-Ghomri).
 
 **Description**: DriverGuide is a suite of tools for the GM NG Infotainment System that offers many services to the driver.
 Features : 
