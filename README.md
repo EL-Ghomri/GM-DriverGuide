@@ -4,10 +4,10 @@
 
 **Description**: DriverGuide is a suite of tools for the GM NG Infotainment System that offers many services to the driver.
 Features : 
--Weather: we used the DarkSky API to informe the driver of the state of the weather in his location in both celsius and fahrenheit degrees, also for all the days of the week including humidity and temperature for every houre of the day.
--Direction : based on Google Maps Embed API the app is able to show all possible paths between two cities by signaling the shortest path.
--Location : Lets the driver find restaurants, hotels, banks, hospitals, airoport and gas nearby within a set distance(500m).
--Calendar : gives the possibility to visualize, add, delete events from driver's calendar.
+- Weather: we used the DarkSky API to informe the driver of the state of the weather in his location in both celsius and fahrenheit degrees, also for all the days of the week including humidity and temperature for every houre of the day.
+- Direction : based on Google Maps Embed API the app is able to show all possible paths between two cities by signaling the shortest path.
+- Location : Lets the driver find restaurants, hotels, banks, hospitals, airoport and gas nearby within a set distance(500m).
+- Calendar : gives the possibility to visualize, add, delete events from driver's calendar.
 
 
 
