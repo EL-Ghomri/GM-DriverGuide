@@ -1,0 +1,150 @@
+body {
+  background-color: white;
+  font-family: 'PT Sans Narrow', sans-serif;
+
+}
+
+p {
+  font-weight: 100;
+  font-size: 30px;
+
+}
+
+#wrapper {
+  height: 100%;
+  text-align: center;
+
+
+}
+
+#main {
+
+  height: auto;
+  padding: 10px;
+  background-color: white;
+
+}
+
+
+div.buttons {
+
+  display: inline-block;
+
+
+}
+
+
+div.buttons:hover {
+  border-color: black;
+  color: black;
+
+}
+div.buttons img {
+  height: 90px;
+  width: 90px;
+  display: inline-block;
+  margin: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+
+
+
+
+}
+
+div.buttons p {
+  margin: 0px;
+  padding: 0px;
+  font-size: 16px;
+
+}
+
+
+
+
+
+
+div.icons {
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 5px;
+
+
+
+}
+
+div.icons:hover {
+  border-color: #125df1;
+  color: #125df1;
+
+}
+
+div.icons div.img {
+  position: relative;
+  margin: auto;
+  height: 50px;
+  width: 50px;
+  margin-top: 10px;
+
+}
+
+div.icons img {
+
+  height: 100px;
+  width: 100px;
+  margin-top: 10px;
+
+}
+
+
+div.icons div.img img.img-inner {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  height: auto;
+  width: auto;
+  margin: auto;
+  max-height: 95%;
+  max-width: 95%;
+  vertical-align: middle;
+
+
+}
+
+
+div.icons p {
+  margin: 0px;
+  width: 80%;
+  font-size: 16px;
+  line-height: 16px;
+  margin: auto;
+  position: relative;
+
+}
+
+#remove img {
+  width: 50px;
+  height: 50px;
+
+
+
+
+}
+
+#remove p {
+  font-size: 15px;
+  font-weight: bold;
+
+
+}
+
+
+#sub_menu p span {
+  color: steelblue;
+
+
+}
