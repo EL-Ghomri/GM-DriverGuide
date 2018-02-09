@@ -1,17 +1,25 @@
-# Rosie
+# DriverGuide
 
-**Description**: A PoC AI assistant named "Rosie" which enabled the real-time assessment of a driver’s physical and mental state by utilizing metrics from both wearable devices and driver speech in order to proactively guard against occurrences such as Road Rage. Built using General Motor’s Next Generation Infotainment (NGI) toolkit with future consideration of using Reciptiviti, an API that enabled AI platforms to determine human emotions.
+**Team Members**: [Amal Ezzouhri](https://github.com/SeanPrashad), [Meryem Janati Idrissi](https://github.com/meryemjanati), [Oumaima El Ghomri]().
 
-**Team Members**: [Sean Prashad](https://github.com/SeanPrashad), [Rubeshan Shan](https://github.com/rubeshan), [Kosalan Balarajah](https://github.com/kosalan), and [Joshua Francis](https://github.com/JoshuaFrancis).
+**Description**: DriverGuide is a suite of tools for the GM NG Infotainment System that offers many services to the driver.
+Features : 
+-Weather: we used the DarkSky API to informe the driver of the state of the weather in his location in both celsius and fahrenheit degrees, also for all the days of the week including humidity and temperature for every houre of the day.
+-Direction : based on Google Maps Embed API the app is able to show all possible paths between two cities by signaling the shortest path.
+-Location : Lets the driver find restaurants, hotels, banks, hospitals, airoport and gas nearby within a set distance(500m).
+-Calendar : gives the possibility to visualize, add, delete events from driver's calendar.
 
-**Project Photos**:
 
-![Rosie Home Screen](./Images/Rosie_Home_Screen.JPG "Rosie Home Screen")
 
-![Rosie Driver State Screen](./Images/Rosie_Driver_State_Screen.JPG "Rosie Driver State Screen")
 
-![Rosie Driver Habit Screen](./Images/Rosie_Driver_Habit_Screen.JPG "Rosie Driver Habit Screen")
 
-![Rosie Vehicle Condition Screen](./Images/Rosie_Vehicle_Condition_Screen.JPG "Rosie Vehicle Condition Screen")
+**Technologies Used**:
 
-![Rosie Navigation Screen](./Images/Rosie_Navigation_Screen.JPG "Rosie Navigation Screen")
+- HTML5/CSS3
+- Javascript
+- NGI SDK by GM
+- Google Places API
+- Google Maps Embed API 
+- DarkSky API
+- Google Calendar API
+
