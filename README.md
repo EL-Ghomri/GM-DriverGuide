@@ -40,3 +40,7 @@ npm install -g ./ngi-sdk.tar
 3. run ngi serve
 
 Hope you like it
+
+
+##### Master Big data Analytics and Smart Systems
+##### Sidi Mohamed Ben Abdellah University -Fez
